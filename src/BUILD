@@ -1,7 +1,11 @@
-load("@rules_cc//cc:defs.bzl", "cc_library")
+load(
+	"@platformio_rules//platformio:platformio.bzl",
+	"platformio_project",
+	"platformio_library"
+)
 
-cc_library(
-	name= "test-library",
-	srcs= ["test_library.cpp"],
-	hdrs= ["test_library.h"]	
+platformio_library(
+	name = "test-library",
+	hdr = "test_library.h",
+	src = "test_library.cc"
 )
