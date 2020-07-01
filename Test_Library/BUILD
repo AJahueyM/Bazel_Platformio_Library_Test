@@ -6,7 +6,7 @@ load(
 
 platformio_library(
 	visibility = ["//visibility:public"],
-	name = "test_library",
+	name = "Test_Library",
 	hdr = "test_library.h",
 	src = "test_library.cc"
 )
