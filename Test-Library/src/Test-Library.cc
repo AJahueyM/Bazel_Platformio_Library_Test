@@ -5,7 +5,7 @@ Test::Test(){
 
 }
 
-int Test::add(int a, int b){
+int Test::sum(int a, int b){
 	int res = a + b;
 	sumation += res;
 	return res;
