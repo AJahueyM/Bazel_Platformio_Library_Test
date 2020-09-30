@@ -5,7 +5,7 @@
 class Test {
 public:
         Test();
-        int sum(int a, int b);
+        int add(int a, int b);
         int getSumation();
 private:
         int sumation = 0;
